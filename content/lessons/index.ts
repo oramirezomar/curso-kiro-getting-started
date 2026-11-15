@@ -26,6 +26,8 @@ import { day13 } from "./day-13";
 import { day14 } from "./day-14";
 import { day15 } from "./day-15";
 import { day16 } from "./day-16";
+import { day17 } from "./day-17";
+import { day18 } from "./day-18";
 
 // ─────────────────────────────────────────────────────────────────────────
 // Niveles (sections) — 3 entradas EXACTAS según design.md.
@@ -36,7 +38,7 @@ import { day16 } from "./day-16";
 export const sections: CourseSection[] = [
   { title: "BÁSICO", dayRange: [1, 5], icon: "concept-nivel-basico" },
   { title: "MEDIO", dayRange: [6, 10], icon: "concept-nivel-medio" },
-  { title: "AVANZADO", dayRange: [11, 16], icon: "concept-nivel-avanzado" },
+  { title: "AVANZADO", dayRange: [11, 18], icon: "concept-nivel-avanzado" },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -61,6 +63,8 @@ export const lessons: Lesson[] = [
   day14,
   day15,
   day16,
+  day17,
+  day18,
 ];
 
 export function getLessonByDay(day: number): Lesson | undefined {

@@ -114,7 +114,7 @@ describe("Catálogo_Lecciones y lógica pura — property-based", () => {
     );
     expect(totalLessons).toBe(lessons.length);
     // El Curso_Kiro_Getting_Started tiene EXACTAMENTE 16 Lecciones (design.md).
-    expect(totalLessons).toBe(16);
+    expect(totalLessons).toBe(18);
   });
 
   // Property 8: toda lección tiene al menos dos objetivos y estimatedMinutes>0.
